@@ -1,0 +1,62 @@
+.add-todo-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.task-input {
+    background-color: transparent;
+    border: 1px solid #27272a;
+    height: 44px;
+    padding: 12px 12px;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 8px;
+    resize: none;
+    scrollbar-width: 0;
+}
+
+.task-descrip {
+    background-color: transparent;
+    border: 1px solid #27272a;
+    height: 120px;
+    padding: 12px;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 8px;
+    resize: none;
+}
+
+.btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.add-btn {
+    background-color: #fff;
+    color: #000;
+    width: 100px;
+    height: 32px;
+    border: none;
+    outline: none;
+    transition: all .1s;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #27272a;
+}
