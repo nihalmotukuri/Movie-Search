@@ -1,12 +1,19 @@
-# React + Vite
+# Movie-Search
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application built with Vite for searching movies.
 
-Currently, two official plugins are available:
+## Project Setup
+
+This project uses Vite for a fast development experience with Hot Module Replacement (HMR) and includes ESLint rules for code quality.
+
+Currently, two official Vite plugins are available for React:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run locally:
+```bash
+npm install
+npm run dev
